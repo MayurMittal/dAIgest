@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="dAIgest — Stay informed in minutes. One feed from all your sources and email accounts, across the apps you already use. Instant clarification when you need it." />
   <title>dAIgest — Your best reads, distilled.</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
@@ -78,6 +80,7 @@
         <form class="waitlist-form" action="#" method="post" aria-label="Join waitlist">
           <input type="email" name="email" placeholder="you@example.com" required autocomplete="email" />
           <button type="submit" class="btn btn-primary">Notify me</button>
+          <p class="waitlist-message" id="waitlist-message" aria-live="polite" hidden></p>
         </form>
         <div class="app-badges" aria-hidden="true">
           <span class="badge badge-coming">App Store — Coming soon</span>

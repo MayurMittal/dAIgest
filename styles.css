@@ -352,6 +352,18 @@ body {
   border-color: var(--color-accent);
 }
 
+.waitlist-message {
+  margin: var(--space-sm) 0 0;
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  width: 100%;
+  text-align: center;
+}
+
+.waitlist-message--error {
+  color: #f87171;
+}
+
 .app-badges {
   display: flex;
   flex-wrap: wrap;
